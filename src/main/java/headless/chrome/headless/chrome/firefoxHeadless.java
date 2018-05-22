@@ -31,12 +31,16 @@ public class firefoxHeadless  {
 //		Assert.assertEquals("Pierwsze kroki z Selenium – Selenium IDE - Kainos Polska", driver.getTitle());
 //	}
 	@Test
-	public void test33() {
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+	public void test33() throws InterruptedException {
+		//System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
 		
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("http://www.google.pl");
+		driver.findElement(By.name("q")).sendKeys("Selenium",Keys.ENTER);
+		Thread.sleep(4000);
+		driver.findElement(By.xpath("(//div//h3)[1]")).click();
+		Assert.assertEquals("Selenium", driver.getTitle());
 	}
 }
