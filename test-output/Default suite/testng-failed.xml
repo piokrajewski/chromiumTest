@@ -5,7 +5,7 @@
     <classes>
       <class name="headless.chrome.headless.chrome.firefoxHeadless">
         <methods>
-          <include name="test32"/>
+          <include name="test33"/>
         </methods>
       </class> <!-- headless.chrome.headless.chrome.firefoxHeadless -->
     </classes>

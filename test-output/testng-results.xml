@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35001" started-at="2018-05-22T15:31:06Z" finished-at="2018-05-22T15:31:41Z">
+  <suite name="Default suite" duration-ms="46405" started-at="2018-05-22T16:02:43Z" finished-at="2018-05-22T16:03:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35001" started-at="2018-05-22T15:31:06Z" finished-at="2018-05-22T15:31:41Z">
+    <test name="Default test" duration-ms="46405" started-at="2018-05-22T16:02:43Z" finished-at="2018-05-22T16:03:30Z">
       <class name="headless.chrome.headless.chrome.firefoxHeadless">
-        <test-method status="PASS" signature="test32()[pri:0, instance:headless.chrome.headless.chrome.firefoxHeadless@3043fe0e]" name="test32" duration-ms="34968" started-at="2018-05-22T15:31:06Z" finished-at="2018-05-22T15:31:41Z">
+        <test-method status="PASS" signature="test33()[pri:0, instance:headless.chrome.headless.chrome.firefoxHeadless@80503]" name="test33" duration-ms="46323" started-at="2018-05-22T16:02:43Z" finished-at="2018-05-22T16:03:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test32 -->
+        </test-method> <!-- test33 -->
       </class> <!-- headless.chrome.headless.chrome.firefoxHeadless -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
