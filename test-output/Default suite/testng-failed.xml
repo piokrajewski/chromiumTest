@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="headless.chrome.headless.chrome.App">
+      <class name="headless.chrome.headless.chrome.firefoxHeadless">
         <methods>
-          <include name="test"/>
+          <include name="test32"/>
         </methods>
-      </class> <!-- headless.chrome.headless.chrome.App -->
+      </class> <!-- headless.chrome.headless.chrome.firefoxHeadless -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

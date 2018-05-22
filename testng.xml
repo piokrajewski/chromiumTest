@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="headless.chrome.headless.chrome.App"/>
+      <class name="headless.chrome.headless.chrome.firefoxHeadless"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
