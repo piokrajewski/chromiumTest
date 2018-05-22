@@ -32,6 +32,7 @@ public class firefoxHeadless  {
 //	}
 	@Test
 	public void test33() {
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
 		
